@@ -7,9 +7,6 @@
 .home .leftPart ul li {
   list-style: none;
 }
-.icon {
-  color: aqua;
-}
 .home {
   display: flex;
 }
@@ -46,8 +43,9 @@ li {
   padding: 15px;
 }
 ul :hover {
-  /* height: 100%; */
+  height: 100%;
   background-color: #00476f;
+  /* padding: 15px; */
 }
 p {
   padding: 12px;
