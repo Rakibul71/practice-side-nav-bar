@@ -4,7 +4,7 @@
   font-family: Open Sans;
   /* box-sizing: border-box; */
 }
-.home .leftPart ul li {
+/* .home .leftPart ul li {
   list-style: none;
 }
 .home {
@@ -45,11 +45,69 @@ li {
 ul :hover {
   height: 100%;
   background-color: #00476f;
-  /* padding: 15px; */
 }
 p {
   padding: 12px;
 }
 p:hover {
   background-color: #171719;
+} */
+
+.home .leftPart ul li {
+  list-style: none;
+}
+.home {
+  display: flex;
+}
+.rightPart img {
+  width: 1300px;
+  height: 790px;
+}
+.leftPart {
+  display: flex;
+}
+.leftpart-1 {
+  font-size: 1.5rem;
+  background-color: #171719;
+  border-right: 4px solid rgb(51, 64, 182);
+  text-align: center;
+  /* padding: 10px; */
+}
+.leftpartBottom {
+  position: sticky;
+  /* position: relative; */
+  top: 530px;
+  color: rgb(226, 210, 210);
+}
+
+.leftpart-2 {
+  font-size: 1.5rem;
+  color: aliceblue;
+  line-height: 1.5 rem;
+  background-color: #3a3a3b;
+}
+.leftpart-2 h3 {
+  text-align: center;
+}
+li {
+  padding: 15px;
+}
+ul :hover {
+  /* height: 100%; */
+  background-color: #00476f;
+}
+p {
+  padding: 12px;
+}
+p:hover {
+  background-color: #171719;
+}
+
+.bottomli {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.logo {
+  margin: 15px;
+  text-align: center;
+  padding-left: 6px;
 }
